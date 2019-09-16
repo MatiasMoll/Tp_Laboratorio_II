@@ -80,7 +80,7 @@
             this.cmbOperator.Name = "cmbOperator";
             this.cmbOperator.Size = new System.Drawing.Size(100, 28);
             this.cmbOperator.TabIndex = 2;
-            this.cmbOperator.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
+            
             // 
             // btnOperar
             // 

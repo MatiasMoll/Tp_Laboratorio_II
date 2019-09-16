@@ -11,7 +11,7 @@ using Entidades;
 
 namespace MiCalculadora
 {
-    
+
     public partial class MiCalculadora : Form
     {
         private bool bandera = false;
@@ -19,18 +19,6 @@ namespace MiCalculadora
         public MiCalculadora()
         {
             InitializeComponent();
-        }
-
-      
-
-        private void TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void BtnOperar_Click(object sender, EventArgs e)
@@ -42,12 +30,6 @@ namespace MiCalculadora
             bandera = true;
 
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Limpiar_Click(object sender, EventArgs e)
         {
             Limpia();
