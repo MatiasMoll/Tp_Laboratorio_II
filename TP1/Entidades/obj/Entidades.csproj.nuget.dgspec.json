@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\TP_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj": {}
+    "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\Tp_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\TP_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\Tp_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\TP_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\Tp_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\TP_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\Tp_Laboratorio_II\\TP1\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Bangho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\TP_Laboratorio_II\\TP1\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\Bangho\\Desktop\\Laboratorio II\\Tp_Laboratorio_II\\TP1\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

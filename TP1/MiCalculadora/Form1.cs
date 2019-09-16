@@ -68,12 +68,14 @@ namespace MiCalculadora
 
         private void BtnConvertirABinario_Click(object sender, EventArgs e)
         {
+            string aux = Numero.DecimalABinario(lblResultado.Text);
             if (bandera)
             {
-                lblResultado.Text = Numero.DecimalABinario(lblResultado.Text);
+                lblResultado.Text = aux;
                 banderaBinario = true;
                 bandera = false;
-            }else
+            }
+            else
             {
                 lblResultado.Text = "Aun no se ha operado";
             }
@@ -92,4 +94,5 @@ namespace MiCalculadora
             }
         }
     }
+
 }
