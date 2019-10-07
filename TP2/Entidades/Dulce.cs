@@ -8,11 +8,20 @@ namespace Entidades_2018
 {
     public class Dulce : Producto
     {
+        #region Constructores
+        /// <summary>
+        /// Construcor de la clase, setea los datos heredados de Producto
+        /// </summary>
+        /// <param name="marca"></param>
+        /// <param name="patente"></param>
+        /// <param name="color"></param>
         public Dulce(EMarca marca, string patente, ConsoleColor color)
             :base(patente,marca,color)
         {
         }
+        #endregion
 
+        #region Propiedades
         /// <summary>
         /// Los dulces tienen 80 calorías
         /// </summary>
@@ -24,6 +33,14 @@ namespace Entidades_2018
             }
         }
 
+        #endregion
+
+        #region Métodos
+        /// <summary>
+        /// Usando el método mostrar de la clase base y agregando información 
+        /// propia de la clase, devuelve los datos del dulce
+        /// </summary>
+        /// <returns>Retorna un string con toda la informacion del Dulce</returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -36,5 +53,6 @@ namespace Entidades_2018
 
             return sb.ToString();
         }
+        #endregion
     }
 }

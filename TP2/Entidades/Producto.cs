@@ -11,6 +11,7 @@ namespace Entidades_2018
     /// </summary>
     public abstract class Producto
     {
+        #region Enumerados
         public enum EMarca
         {
             Serenisima,
@@ -20,22 +21,39 @@ namespace Entidades_2018
             Sancor,
             Pepsico
         }
+        #endregion
+
+        #region Atributos
         EMarca marca;
         string codigoDeBarras;
         ConsoleColor colorPrimarioEmpaque;
 
+        #endregion
+
+        #region Constructores
+        /// <summary>
+        /// Constructor que sera reutilizado en las clases hijas
+        /// donde se setean los atributos con los datos de entradas
+        /// </summary>
+        /// <param name="codigo"></param>
+        /// <param name="marca"></param>
+        /// <param name="color"></param>
         public Producto(string codigo, EMarca marca, ConsoleColor color)
         {
             this.codigoDeBarras = codigo;
             this.marca = marca;
             this.colorPrimarioEmpaque = color;
         }
+        #endregion
 
+        #region Propiedades
         /// <summary>
         /// ReadOnly: Retornará la cantidad de ruedas del vehículo
         /// </summary>
         protected abstract short CantidadCalorias { get;}
+        #endregion
 
+        #region Metodos
         /// <summary>
         /// Publica todos los datos del Producto.
         /// </summary>
@@ -45,6 +63,11 @@ namespace Entidades_2018
             return (string)this;
         }
 
+        /// <summary>
+        /// Sobrecarga la conversion explícita del string para
+        /// mostrar los datos del producto mediante un StringBuilder
+        /// </summary>
+        /// <param name="p"></param>
         public static explicit operator string(Producto p)
         {
             StringBuilder sb = new StringBuilder();
@@ -77,5 +100,6 @@ namespace Entidades_2018
         {
             return !(v1.codigoDeBarras == v2.codigoDeBarras);
         }
+        #endregion
     }
 }

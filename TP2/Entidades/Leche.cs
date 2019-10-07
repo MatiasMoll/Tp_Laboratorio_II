@@ -10,12 +10,15 @@ namespace Entidades_2018
 {
     public class Leche : Producto
     {
+        #region Enumerado
         public enum ETipo
         {
             Entera,
             Descremada
         }ETipo tipo;
+        #endregion
 
+        #region Constructores
         /// <summary>
         /// Por defecto, TIPO será ENTERA
         /// </summary>
@@ -27,11 +30,22 @@ namespace Entidades_2018
         {
             tipo = ETipo.Entera;
         }
+        /// <summary>
+        /// Crea un objeto de la clase Leche, reutilizando el constructor anterior
+        /// ademas de setear el tipo con un dato de entrada
+        /// </summary>
+        /// <param name="marca"></param>
+        /// <param name="patente"></param>
+        /// <param name="color"></param>
+        /// <param name="tipos"></param>
         public Leche(EMarca marca, string patente, ConsoleColor color, ETipo tipos)
             : this(marca, patente, color)
         {
             tipo = tipos;
         }
+        #endregion
+
+        #region Propiedades
         /// <summary>
         /// Las leches tienen 20 calorías
         /// </summary>
@@ -42,7 +56,14 @@ namespace Entidades_2018
                 return 20;
             }
         }
+        #endregion
 
+        #region Métodos
+        /// <summary>
+        /// Usando el método mostrar de la clase base y agregando información 
+        /// propia de la clase, devuelve los datos de la leche
+        /// </summary>
+        /// <returns>Retorna un string con toda la informacion de la leche</returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -56,5 +77,6 @@ namespace Entidades_2018
 
             return sb.ToString();
         }
+        #endregion
     }
 }
