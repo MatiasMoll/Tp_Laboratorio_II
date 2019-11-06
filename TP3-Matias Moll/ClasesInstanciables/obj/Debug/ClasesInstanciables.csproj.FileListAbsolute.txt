@@ -1,0 +1,12 @@
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\Moll.Matias.2C.TP3.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\Moll.Matias.2C.TP3.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\ClasesInstanciables\bin\Debug\Excepciones.pdb

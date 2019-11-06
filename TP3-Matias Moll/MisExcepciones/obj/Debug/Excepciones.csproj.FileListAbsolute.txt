@@ -1,0 +1,5 @@
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\MisExcepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\MisExcepciones\bin\Debug\Excepciones.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\MisExcepciones\bin\Debug\Excepciones.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\MisExcepciones\obj\Debug\Excepciones.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\MisExcepciones\obj\Debug\Excepciones.pdb

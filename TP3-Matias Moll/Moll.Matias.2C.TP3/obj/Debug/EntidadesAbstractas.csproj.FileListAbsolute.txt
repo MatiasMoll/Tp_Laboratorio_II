@@ -1,0 +1,8 @@
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\bin\Debug\Moll.Matias.2C.TP3.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\bin\Debug\Moll.Matias.2C.TP3.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\obj\Debug\Moll.Matias.2C.TP3.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\obj\Debug\Moll.Matias.2C.TP3.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\bin\Debug\Excepciones.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Moll.Matias.2C.TP3\bin\Debug\Excepciones.pdb

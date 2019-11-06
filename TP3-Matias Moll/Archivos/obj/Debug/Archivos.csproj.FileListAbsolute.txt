@@ -1,0 +1,8 @@
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\bin\Debug\Archivos.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\obj\Debug\Archivos.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP3-Matias Moll\Archivos\obj\Debug\Archivos.csproj.CopyComplete
