@@ -21,7 +21,7 @@ namespace ClasesInstanciables
         #region Constructores/Metodos
         private void _randomClases()
         {
-            this.clasesDelDia.Enqueue((EClases)random.Next(0, 3));
+            this.clasesDelDia.Enqueue((EClases)random.Next(0, 4));
             Thread.Sleep(250);
         }
         static Profesor()

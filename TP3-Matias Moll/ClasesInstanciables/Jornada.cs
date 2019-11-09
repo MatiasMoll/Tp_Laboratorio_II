@@ -69,23 +69,10 @@ namespace ClasesInstanciables
 
 
         public static bool operator ==(Jornada j, Alumno a)
-       {
-            bool retorno = false;
-            if(!(j is null && a is null))
-            {
-                foreach(Alumno alumno in j.alumnos)
-                {
-                    if(alumno == a)
-                    {
-                        retorno = true;
-                        break;
-                    }
+        {
+            return !(a != j.clase);
 
-                }
-            }
-            return retorno;
-
-       }
+        }
         public static bool operator !=(Jornada j, Alumno a)
         {
             return !(j == a);
@@ -111,7 +98,7 @@ namespace ClasesInstanciables
             foreach(Alumno alumno in this.alumnos)
             {
                 retorno.AppendLine(alumno.ToString());
-                //retorno.AppendFormat("NACIONAlIDAD: {0} \n", alumno.Nacionalidad);
+              
             }
             return retorno.ToString();
         }
@@ -122,7 +109,7 @@ namespace ClasesInstanciables
             bool retorno = false;
             if(!(guardador is null && jornada is null))
             {
-                retorno = guardador.Guardar(AppDomain.CurrentDomain.BaseDirectory + "\\prueba.txt", jornada.ToString());
+                retorno = guardador.Guardar(AppDomain.CurrentDomain.BaseDirectory + "\\Jornada.txt", jornada.ToString());
             }
             return retorno;
         }

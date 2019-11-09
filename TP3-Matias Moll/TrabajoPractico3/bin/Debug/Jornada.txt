@@ -1,0 +1,32 @@
+CLASE DE: Programacion POR NOMBRE COMPLETO: Lopez, Juan 
+NACIONALIDAD: Argentino
+
+LEGAJO NÚMERO: 1
+
+CLASES DEL DIA:
+Programacion
+Programacion
+
+ALUMNOS: 
+NOMBRE COMPLETO: Hernandez, Miguel 
+NACIONALIDAD: Extranjero
+
+LEGAJO NÚMERO: 4
+
+ESTADO DE CUENTA: AlDia
+TOMA CLASE DE Legislacion
+NOMBRE COMPLETO: Suarez, Joaquin 
+NACIONALIDAD: Extranjero
+
+LEGAJO NÚMERO: 7
+
+ESTADO DE CUENTA: AlDia
+TOMA CLASE DE Laboratorio
+NOMBRE COMPLETO: Smith, Rodrigo 
+NACIONALIDAD: Argentino
+
+LEGAJO NÚMERO: 8
+
+ESTADO DE CUENTA: AlDia
+TOMA CLASE DE Legislacion
+

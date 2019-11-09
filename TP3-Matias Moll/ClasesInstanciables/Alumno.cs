@@ -53,7 +53,7 @@ namespace ClasesInstanciables
             StringBuilder retorno = new StringBuilder();
             retorno.AppendLine(base.MostrarDatos());
             retorno.AppendFormat("ESTADO DE CUENTA: {0}\r\n", this.estadoCuenta);
-            retorno.AppendLine(ParticipaEnClase());
+            retorno.Append(ParticipaEnClase());
             
             return retorno.ToString();
         }

@@ -95,7 +95,7 @@ namespace ClasesInstanciables
                 }
                 if (retorno is null)
                 {
-                    throw new SinProfesorException("La catedra no tiene ningun profesor");
+                    throw new SinProfesorException();
                 }
             }
             return retorno;
@@ -209,7 +209,7 @@ namespace ClasesInstanciables
             if(!(uni is null))
             {
                 Xml<Universidad> aux = new Xml<Universidad>();
-                retorno = aux.Guardar(AppDomain.CurrentDomain.BaseDirectory + "Universidad.txt", uni);
+                retorno = aux.Guardar(AppDomain.CurrentDomain.BaseDirectory + "Universidad.xml", uni);
             }
             return retorno;
         }
@@ -228,7 +228,7 @@ namespace ClasesInstanciables
             foreach(Jornada j in uni.jornadas)
             {
                 retorno.AppendFormat($"{j.ToString()}");
-                retorno.AppendLine("<------------------------------------------------------------->");
+                retorno.AppendFormat("<------------------------------------------------------------->\r\n\r\n");
             }
             
             return retorno.ToString();

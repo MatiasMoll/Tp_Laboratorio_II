@@ -6,27 +6,23 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    public class DniInvalidException : Exception
+    public class DniInvalidoException : Exception
     {
-        private string mensajeBase;
-
-        public DniInvalidException()
-            :base()
+        private static string mensajeBase = "DNI Invalido";
+        public DniInvalidoException()
+            : this(mensajeBase, null)
         { }
-        
-        public DniInvalidException(string  message)
-         :this()
-        {
-            mensajeBase = message;
-        }
 
-        public DniInvalidException(string msg, Exception e)
-        :base(msg,e)
-        {
+        public DniInvalidoException(string mensaje, Exception e)
+            : base(mensaje, e)
+        { }
 
-        }
+        public DniInvalidoException(Exception e)
+            : this(mensajeBase, e)
+        { }
 
-
-
+        public DniInvalidoException(string mensaje)
+            : this(mensaje, null)
+        { }
     }
 }

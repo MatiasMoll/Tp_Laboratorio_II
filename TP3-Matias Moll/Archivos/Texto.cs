@@ -25,9 +25,9 @@ namespace Archivos
                     }
                     retorno = true;
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
-                    throw new ArchivosException();
+                    throw new ArchivosException(e);
                 }
                 finally
                 {

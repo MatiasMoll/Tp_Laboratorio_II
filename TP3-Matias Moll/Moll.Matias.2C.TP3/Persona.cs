@@ -33,10 +33,7 @@ namespace EntidadesAbstractas
             }
             set
             {
-                if(ValidarNombreApellido(value))
-                {
-                    apellido = value;
-                }
+                apellido = ValidarNombreApellido(value);
             }
         }
 
@@ -72,10 +69,7 @@ namespace EntidadesAbstractas
             }
             set
             {
-                if(ValidarNombreApellido(value))
-                {
-                    nombre = value;
-                }
+                nombre = ValidarNombreApellido(value);
                 
             }
         }
@@ -109,11 +103,11 @@ namespace EntidadesAbstractas
             Dni = dni;
         }
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad)
-            :this(nombre, apellido, int.Parse(dni),nacionalidad)
+            :this(nombre, apellido,nacionalidad)
         {
-            /*
+            
             StringToDNI = dni;
-            */
+            
         }
         public override string ToString()
         {
@@ -122,15 +116,15 @@ namespace EntidadesAbstractas
             return retorno.ToString();
         }
 
-        private bool ValidarNombreApellido(string dato)
+        private string ValidarNombreApellido(string dato)
         {
-            bool retorno = true;
+            string retorno = dato;
             string charInvalidName = "0123456789|°¬!#$%&/()=?¡'¿´+{}-.,;:_[]¨*";
             foreach(char car in charInvalidName)
             {
                 if(dato.Contains(car))
                 {
-                    retorno = false;
+                    retorno = "";
                     break;
                 }
             }
@@ -147,19 +141,22 @@ namespace EntidadesAbstractas
                 retorno = dato;
             }else
             {
-                throw new NacionalidadInvalidaException("La nacionalida no se coincide con el DNI");
+                throw new NacionalidadInvalidaException();
             }
             return retorno;
         }
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             int aux;
-            int retorno = 0;
+            int retorno = -1;
             if(!(dato is null))
             {
-                if(int.TryParse(dato, out aux))
+                if(int.TryParse(dato, out aux) && dato.Length <= 8 && !(dato is null))
                 {
-                    retorno = ValidarDni(nacionalidad, aux);
+                    retorno =  ValidarDni(nacionalidad, aux);
+                }else
+                {
+                    throw new DniInvalidoException();
                 }
             }
             return retorno;
