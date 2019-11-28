@@ -20,6 +20,5 @@ C:\Users\Bangho\Downloads\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades.pdb
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\Entidades\bin\Debug\Entidades.dll
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\Entidades\bin\Debug\Entidades.pdb
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
-C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\Entidades\obj\Debug\Entidades.dll
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\Entidades\obj\Debug\Entidades.pdb

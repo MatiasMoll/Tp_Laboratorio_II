@@ -34,7 +34,6 @@ C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\bin\Debug\TP-
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\bin\Debug\Entidades.dll
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\bin\Debug\Entidades.pdb
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
-C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\obj\Debug\TP-02.exe
 C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP2\TP-02\obj\Debug\TP-02.pdb

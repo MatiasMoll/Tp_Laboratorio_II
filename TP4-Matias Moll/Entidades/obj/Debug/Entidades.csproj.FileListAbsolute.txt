@@ -1,0 +1,5 @@
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP4-Matias Moll\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP4-Matias Moll\Entidades\bin\Debug\Entidades.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP4-Matias Moll\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP4-Matias Moll\Entidades\obj\Debug\Entidades.dll
+C:\Users\Bangho\Desktop\Laboratorio II\Tp_Laboratorio_II\TP4-Matias Moll\Entidades\obj\Debug\Entidades.pdb

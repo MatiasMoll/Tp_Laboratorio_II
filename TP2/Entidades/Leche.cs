@@ -26,9 +26,8 @@ namespace Entidades_2018
         /// <param name="patente"></param>
         /// <param name="color"></param>
         public Leche(EMarca marca, string patente, ConsoleColor color)
-            :base(patente,marca,color)
+            : this(marca, patente, color, ETipo.Entera)
         {
-            tipo = ETipo.Entera;
         }
         /// <summary>
         /// Crea un objeto de la clase Leche, reutilizando el constructor anterior
@@ -39,7 +38,7 @@ namespace Entidades_2018
         /// <param name="color"></param>
         /// <param name="tipos"></param>
         public Leche(EMarca marca, string patente, ConsoleColor color, ETipo tipos)
-            : this(marca, patente, color)
+            :base(patente, marca, color)
         {
             tipo = tipos;
         }
