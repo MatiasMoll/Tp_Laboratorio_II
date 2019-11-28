@@ -103,7 +103,6 @@ namespace Entidades
             retorno.AppendFormat("{0}",this.MostrarDatos(this));
             return retorno.ToString();
         }
-      
         public void MockCicloDeVida()
         {
             int aux = (int)this.Estado;

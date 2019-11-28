@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainCorreo", "MainCorreo.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "..\Entidades\Entidades.csproj", "{B1498BEE-04A7-41F3-825A-330EE166642F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitarios", "..\TestUnitarios\TestUnitarios.csproj", "{4E7B4AA1-F1C1-44E1-AA53-8D086B5293A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B1498BEE-04A7-41F3-825A-330EE166642F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1498BEE-04A7-41F3-825A-330EE166642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1498BEE-04A7-41F3-825A-330EE166642F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7B4AA1-F1C1-44E1-AA53-8D086B5293A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7B4AA1-F1C1-44E1-AA53-8D086B5293A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7B4AA1-F1C1-44E1-AA53-8D086B5293A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7B4AA1-F1C1-44E1-AA53-8D086B5293A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
